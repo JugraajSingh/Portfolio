@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">My Profile</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Certificates</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> <span>Jugraaj Singh</span></h1>
+            <p class="hero__description">2021A1PS2589P</p>
+
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <h1>About Me</h1>
+        <div class="main__container">
+
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-1">
+                    <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                                <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
+                                <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <mask id="mask1" mask-type="alpha">
+                            <path fill="url(#sw-gradient)"
+                                d="M23.2,-34.5C30.2,-31.7,35.9,-25.3,38.5,-18.1C41.1,-10.8,40.5,-2.5,38.7,5.2C37,12.9,34.2,20,29.1,24.4C24,28.8,16.7,30.5,9.5,32.8C2.3,35,-4.8,37.9,-11,36.5C-17.2,35.1,-22.4,29.5,-25.4,23.5C-28.3,17.4,-28.9,10.8,-31.1,3.7C-33.3,-3.3,-36.9,-10.9,-34.9,-16.1C-32.8,-21.3,-25.1,-24.2,-18.3,-27.1C-11.6,-30,-5.8,-32.9,1.2,-34.8C8.1,-36.6,16.3,-37.3,23.2,-34.5Z"
+                                width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                                style="transition: all 0.3s ease 0s;" style="transition: all 0.3s ease 0s;">
+                            </path>
+                        </mask>
+                        <g mask="url(#mask1)">
+                            <path fill="url(#sw-gradient)"
+                                d="M23.2,-34.5C30.2,-31.7,35.9,-25.3,38.5,-18.1C41.1,-10.8,40.5,-2.5,38.7,5.2C37,12.9,34.2,20,29.1,24.4C24,28.8,16.7,30.5,9.5,32.8C2.3,35,-4.8,37.9,-11,36.5C-17.2,35.1,-22.4,29.5,-25.4,23.5C-28.3,17.4,-28.9,10.8,-31.1,3.7C-33.3,-3.3,-36.9,-10.9,-34.9,-16.1C-32.8,-21.3,-25.1,-24.2,-18.3,-27.1C-11.6,-30,-5.8,-32.9,1.2,-34.8C8.1,-36.6,16.3,-37.3,23.2,-34.5Z"
+                                width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                                style="transition: all 0.3s ease 0s;" style="transition: all 0.3s ease 0s;">
+                            </path>
+                            <image class="my__img " x='13.1' y='13' href="images/Jugraaj.png" />
+                            <g>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="main__content">
+
+                <h2>. </h2>
+                <p>Hello! I'm Jugraaj Singh,
+                <p>
+                <p>
+                    Frontend Developer with a strong passion for app development.
+                </p>
+                <p>
+                    Open to new opportunities and eager to contribute to the success of your organization.
+                <p>
+                <p>
+                    Completed an internship at IRCS where I developed an app for the organization.
+                <p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience and certificates Section -->
+    <div class="services" id="services">
+        <h1> Experience and Certificates</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>IRCS App</h2>
+                <p>Built an app during a 2 month internship at IRCS Dehradun</p>
+                <div class="services__btn"><button>View </button></div>
+            </div>
+            <div class="services__card">
+                <h2>DSA Completion </h2>
+                <p>Completed DSA from SKOLR for better logic building</p>
+                <div class="services__btn"><button onclick="window.open('images/DSA.jpeg','_blank')">View </button>
+                </div>
+            </div>
+            <div class="services__card">
+                <h2>JAVA certification</h2>
+                <p>Completed java certification test from Hackerrank</p>
+                <div class="services__btn"><button onclick="window.open('images/Hackerrank Java.pdf','_blank')">View </button>
+                </div>
+            </div>
+            <div class="services__card">
+                <h2>Letter of Recommendation </h2>
+                <p>LOR from School for holding a position in the  Student Union</p>
+                <div class="services__btn"><button onclick="window.open('images/Letter.jpg','_blank')">View </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="main" id="sign-up">
+        <h1>Education </h1>
+        <div class="main__container1">
+
+            <div class="main__content">
+
+                <h2> BITS PILANI -Pilani Campus </h2>
+                <p> B.E. Enginering </p>
+
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card-1" id="card-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="main__container2">
+
+            <div class="main__content">
+
+                <h3> The Heritage School </h3>
+                <p1> ISC Board </p1>
+
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card-2" id="card-3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+
+            <!-- <div class="footer__link--wrapper">
+                 <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div> --> 
+                <div class="footer__link--items">
+
+                    
+                    <a href="https://www.instagram.com/im_jugraajsingh/" target="_blank" class="social__icon--link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/JugraajSingh" target="_blank" class="social__icon--link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jugraajsingh/" target="_blank" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                   
+
+                </div>
+            
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    
+                </div>
+                <p class="website__rights">© All rights reserved</p>
+                <!-- <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
