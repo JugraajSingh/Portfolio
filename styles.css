@@ -670,6 +670,22 @@
             #ff1361 67%,
             #fff800 100%);
 }
+.services__card:nth-child(4) {
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.services__card:nth-child(5) {
+    background: #1fa2ff;
+    background: -webkit-linear-gradient(to right,
+            #36e880,
+            #08b7d6,
+            #0780d6);
+    background: linear-gradient(to right,
+            #37bc6e,
+            #09a5c1,
+            #0991f3);
+    
+}
 
 .services__card h2 {
     text-align: center;
